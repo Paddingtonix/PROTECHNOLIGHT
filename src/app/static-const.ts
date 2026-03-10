@@ -20,3 +20,7 @@ export const LINKS_MENU = [
         href: '/contacts'
     },
 ]
+
+export const BASE_PATH = process.env.NODE_ENV === "production"
+  ? "/PROTECHNOLIGHT"
+  : ""

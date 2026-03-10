@@ -7,13 +7,14 @@ import { Navigation, Autoplay, Pagination } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
+import { BASE_PATH } from "@/app/static-const"
 
 const slides = [
-  { img: "/slider/1.jpg", alt: "slide 1" },
-  { img: "/slider/2.jpg", alt: "slide 2" },
-  { img: "/slider/3.jpg", alt: "slide 3" },
-  { img: "/slider/4.jpg", alt: "slide 3" },
-  { img: "/slider/5.jpg", alt: "slide 3" },
+  { img: `${BASE_PATH}/slider/1.jpg`, alt: "slide 1" },
+  { img: `${BASE_PATH}/slider/2.jpg`, alt: "slide 2" },
+  { img: `${BASE_PATH}/slider/3.jpg`, alt: "slide 3" },
+  { img: `${BASE_PATH}/slider/4.jpg`, alt: "slide 4" },
+  { img: `${BASE_PATH}/slider/5.jpg`, alt: "slide 5" },
 ]
 
 export default function HeroSlider() {

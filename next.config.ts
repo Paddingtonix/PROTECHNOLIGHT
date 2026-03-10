@@ -1,7 +1,27 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
+
+const isProd = process.env.NODE_ENV === "production"
+const repoName = "PROTECHNOLIGHT"
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  output: "export",
+  
+  // Важно: basePath БЕЗ слеша в конце, assetPrefix СО слешем
+  basePath: isProd ? `/${repoName}` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
+  
+  // Отключаем оптимизацию изображений
+  images: {
+    unoptimized: true
+  },
+  
+  // Важные дополнительные настройки
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  
+  // Отключаем кеширование
+  generateBuildId: async () => 'build',
+  
+}
 
-export default nextConfig;
+export default nextConfig
