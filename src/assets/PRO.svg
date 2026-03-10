@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_лой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1100">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #30464a;
+      }
+
+      .cls-3 {
+        fill: #00b1cb;
+      }
+
+      .cls-2 {
+        font-family: Lack-Regular, Lack;
+        font-size: 298.5755px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-3" points="1100 321.47092 1033.88507 321.47092 1033.88507 66.11493 66.11493 66.11493 66.11493 321.47092 0 321.47092 0 0 1100 0 1100 321.47092"/>
+    <polygon class="cls-3" points="1100 1100 0 1100 0 778.52908 66.11493 778.52908 66.11493 1033.88507 1033.88507 1033.88507 1033.88507 778.52908 1100 778.52908 1100 1100"/>
+  </g>
+  <g>
+    <text class="cls-2" transform="translate(217.24023 639.65039)"><tspan x="0" y="0">ПРО</tspan></text>
+    <g>
+      <rect class="cls-1" x="690.24066" y="661.33538" width="149.81269" height="10.77056" rx=".97826" ry=".97826"/>
+      <rect class="cls-1" x="712.71256" y="692.65468" width="104.86888" height="10.77056" rx=".97826" ry=".97826"/>
+    </g>
+  </g>
+</svg>
